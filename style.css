@@ -1,0 +1,286 @@
+body{
+    font-family: 'Spartan', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.pricing-area{
+    background-color: #f6f9fc;
+}
+.pricing-heading h5{
+	font-size: 14px;
+	color: #345ed2ce;
+	margin-bottom: 14px;
+}
+.pricing-heading h3{
+	font-size: 32px;
+	font-weight: 600;
+    position: relative;
+}
+.pricing-heading h3::before{
+	content: '';
+	position: absolute;
+	left: 619px;
+	bottom: -17px;
+	width: 4%;
+	height: 4%;
+	background-color: #0d6efd;
+}
+.pricing-table-heading span{
+    font-size: 46px;
+    margin-top: 39px;
+}
+.pat{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.pricing-heading p{
+	font-size: 15px;
+	width: 35%;
+	color: #727272;
+	margin: auto;
+	margin-top: 43px;
+    font-weight: 500;
+}
+.pricing-table{
+	background-color: #ffffff;
+	padding: 25px;
+	box-sizing: border-box;
+    transition: .4s;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.pricing-table:hover{
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+.pricing-table:hover .pricing-middel ul li{
+    color: #ffffff;
+} 
+.pricing-table:hover .pricing-btn a{
+    background-color: #ffffff;
+    color: #0d6efd;
+}
+.pricing-table-heading{
+    transition: 2s;
+}
+.pricing-table:hover .pricing-table-heading{
+    color: #ffffff;
+}
+.pricing-table-heading h5{
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.pricing-table-heading h2{
+	font-size: 40px;
+	margin-top: 39px;
+    font-weight: 600;
+}
+.pricing-table-heading h2 span i{
+    font-weight: 500;
+    font-size: 40px;
+}
+.pricing-table-heading h3{
+    position: relative;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+.pricing-table-heading h3::before{
+	content: '';
+	position: absolute;
+	left: 97px;
+	bottom: -40px;
+	width: 54%;
+	height: 2%;
+	background-color: #ddd;
+}
+.pricing-middel ul{
+    padding-left: 0;
+}
+.pricing-middel ul li{
+	list-style: none;
+	color: #727272;
+	font-size: 16px;
+	line-height: 36px;
+}
+.pricing-btn a{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #0d6efd;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 14px;
+	border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+}
+.pricing-btn a:hover{
+    color: #ffffff !important;
+}
+.pricing-btn  a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+   background-color: #0d6efd;
+   border-radius: 50px;
+   transition: .4s;
+   z-index: -1;
+}
+.pricing-btn  a:hover::before{
+    width: 100%;
+}
+/* start banner section */
+.banner-section{
+    background-image: url('free-bg.jpg');
+    padding: 120px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #345ed2ce;
+    z-index: -1;
+}
+.banner-heading h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+.banner-heading h2{
+	font-size: 27px;
+	width: 34%;
+	margin: auto;
+	font-weight: 600;
+    position: relative;
+}
+.banner-heading h2::before{
+	content: '';
+	position: absolute;
+	left: 197px;
+	bottom: -19px;
+	width: 11%;
+	height: 3%;
+	background-color: #ddd;
+}
+.banner-heading p{
+	font-size: 15px;
+	font-weight: 600;
+	width: 39%;
+	margin: auto;
+    margin-top: 40px;
+}
+.banner-btn a{
+    display: inline-block;
+	padding: 12px 20px;
+	background-color: #ffffff;
+	color: #0d6efd;
+	font-weight: 600;
+	font-size: 16px;
+	border-radius: 50px;
+    position: relative;
+    border: 1px solid transparent;
+    z-index: 1;
+    overflow: hidden;
+}
+.banner-btn a:hover{
+    color: #ffffff;
+}
+.banner-btn a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #3763eb;
+    border: 1px solid #ffffff;
+    transition: .4s;
+    z-index: -1;
+}
+.banner-btn a:hover::before{
+    width: 100%;
+}
+/* start contact area */
+.contact-area{
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+.contact-form{
+    background-color: #3763eb;
+    padding: 46px;
+    border-radius: 5px;
+}
+.contact-form h2{
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 600;
+}
+.contact-form p{
+	font-size: 15px;
+	color: #ffffff;
+	width: 57%;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.contact-form input{
+    border-radius: 50px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 100%;
+}
+.contact-form form{
+    margin-top: 30px;
+}
+.contact-form button{
+    border-radius: 50px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: #3763eb;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: 700;
+}
+.contact-area-right{
+    background-color: #ffffff;
+    width: 80%;
+    padding: 30px 44px;
+    box-shadow: 1px 1px 11px #d3d0d0;
+    margin-left: 20px;
+}
+.contact-area-right p{
+	font-size: 20px;
+	font-weight: 600;
+	width: 67%;
+}
+.get-btn{
+    margin-top: 77px;
+}
+.get-btn a{
+    display: inline-block;
+	padding: 10px 20px;
+	background-color: #0d6efd;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 14px;
+	border-radius: 50px;
+    transition: .4s;
+}
+.get-btn a:hover{
+    background-color: #3763eb;
+}
